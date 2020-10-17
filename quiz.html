@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Quiz</title>
-    <script src="quiz.js"></script>
+    <script defer src="quiz.js"></script>
     <link rel="stylesheet" type="text/css" href="quiz.css"/>
+    <link rel="shortcut icon" href="faviconForQuiz.ico" type="image/x-icon">
 </head>
 <body>
-<div id="background">
-<h1 id="question">Who was the first President of the United States?</h1>
+<div id="bigBackground">
+<div id="smallBackground">
+<div id="question">Who was the first President of the United States?</div>
 <div class="answers" id="answer1">George Washington</div>
 <div class="buttons" id="button1">select answer</div>
 <div class="answers" id="answer2">Thomas Jefferson</div>
@@ -18,6 +20,7 @@
 <div class="answers" id="answer4">I don't know</div>
 <div class="buttons" id="button4">select answer</div>
 <div id="numberOfQuestion">question 1 of 5</div>
+</div>
 </div>
 </body>
 </html>
