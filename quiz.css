@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: "Century Gothic", sans-serif;
+    padding: 0;
 }
 
 #bigBackground {
@@ -9,21 +10,83 @@ body {
     background-attachment: fixed;
     background-color: #72b6bf;
     margin: 0;
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 100%;
+    opacity: 0.7;
 }
 
 #smallBackground {
     background: rgba(255, 255, 255, 0.9);
-    width: 55%;
-    height: 75%;
+    width: 60%;
+    height: 90%;
+    min-width: 500px;
+    min-height: 600px;
     position: absolute;
-    left: 22.5%;
-    top: 10%;
+    left: 20%;
+    top: 30px;
+    margin-bottom: 20px;
+    border-radius: 25px;
 }
 
 #question {
-    font-size: 23pt;
+    font-size: 18pt;
+    text-align: center;
+    top: 20px;
+    position: relative;
+    line-height: 30px;
+    margin-bottom: 7%;
+}
 
+.buttons {
+    width: 200px;
+    height: 30px;
+    background: #eacf2d;
+    color: white;
+    font-size: 14pt;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+    padding-top: 4px;
+    border-radius: 7px;
+}
+
+.answers {
+    text-align: center;
+    margin: 5px;
+
+}
+
+.answersWithButtons {
+    left: inherit;
+    margin-top: 30px;
+    position: relative;
+    width: inherit;
+    padding-bottom: 15px;
+
+}
+
+#numberOfQuestion {
+    color: #c6c6c6;
+    text-align: center;
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+    font-weight: bolder;
+}
+
+.buttons:hover {
+    background-color: #f0e147;
+    cursor: pointer;
+}
+
+#score{
+    color: #949494;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30pt;
+    top: 35%;
+    position: absolute;
+    width: 100%;
 }
