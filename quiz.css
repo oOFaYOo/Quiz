@@ -55,7 +55,6 @@ body {
 .answers {
     text-align: center;
     margin: 5px;
-
 }
 
 .answersWithButtons {
@@ -64,7 +63,6 @@ body {
     position: relative;
     width: inherit;
     padding-bottom: 15px;
-
 }
 
 #numberOfQuestion {
