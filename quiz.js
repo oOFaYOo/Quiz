@@ -69,7 +69,7 @@ function actionForClick(event) {
     checkAnswer(data[i], event);
     i++;
     if (i > data.length - 1) {
-        showResult()
+        showResult();
     } else drawNewQuestion(data[i]);
 }
 
